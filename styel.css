@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Cairo', sans-serif;
+font-family: 'Poppins', sans-serif;
+margin:0 ;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+header{
+    background-color: #FEB139;
+    width: 100%;
+    position:fixed ;
+    z-index: 999;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding:10px 100px ;
+}
+.logo{
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.9em;
+}
+.navigation a{
+color:black;
+text-decoration: none;
+font-size: 1.3em;
+font-weight: 600;
+padding-left: 35px ;
+}
+.navigation a:hover{
+    color:white;
+}
+section{
+    padding: 100px;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url( "galileo2.jpg" ) no-repeat;
+    background-size:cover ;
+    background-position:center ;
+    background-attachment:fixed ;
+
+}
+.main h2{
+    color:white;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.main h2 span{
+    color:#FEB139;
+    font-size: 1.25rem;
+    font-weight: 400;
+    display: inline-block;
+    margin-top: 10px;
+}
+.main h3{
+    color:white;
+    font-size: 2em;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.main-btn{
+    color:black;
+    background-color:#FEB139 ;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight:600 ;
+    display: inline-block;
+    padding: 1em ;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    transition: 0.5s;
+}
+.main-btn:hover{
+    background-color: white;
+    transform: scale(1.5);
+}
+.social-icons a{
+    color:#FEB139 ;
+    font-size:1.5em ;
+    font-weight: 2em;
+    padding-right: 35px ;
+    padding: 1em ;
+    top :10px;
+    transition: 0.5s;
+}
+.btn-facebook:hover{
+    color: rgba(74, 74, 239, 0.66);
+    transform:scale(1) ;
+    
+}
+.btn-instagram:hover{
+    color:rgba(225, 104, 5, 0.92) ;
+    transform:scale(1) ;
+}
+.btn-linkedin:hover{
+    color: rgb(5, 5, 142);
+    transform:scale(1) ;
+    
+}
+.btn-whatsapp:hover{
+    color:rgb(28, 162, 28) ;
+    transform:scale(1) ;
+    
+}
+.title{
+    display:flex ;
+    justify-content: center;
+    color:#FEB139  ;
+    font-size: 2.5em;
+    font-weight:800 ;
+    margin-bottom: 30px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: dimgrey;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(245, 245, 245, 0.568)  ;
+    border-radius: 15px;
+    padding:25px;
+    margin: 25px;
+    transition: 0.5s ease;
+}
+.card:hover{
+    transform: scale(1.2);
+}
+.icon{
+color: #FEB139;
+font-size: 8em;
+text-align: center;
+}
+.info{
+    text-align: center;
+}
+.info h3{
+    color: #FEB139;
+    font-size:1.2em ;
+    font-weight:700 ;
+    margin: 10px;
+}
+.info p{
+    color:white ;
+}
+.dadcards{
+    background-color:black;
+}
+.projact{
+    background-color:dimgrey ;
+}
+.projact .content{
+margin-top: 30px;
+
+}
+.projact-card{
+    background-color:black;
+    border:2px solid rgba(255, 255, 255, 0.669);
+    min-height: 15em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 15px;
+    margin:15px;
+    transition: 0.7s ease;
+}
+.projact-card:hover{
+    transform: scale(1.1);
+}
+.projact-img img{
+width: 105%;
+}
+.projact-card:hover .projact-img{
+    opacity: 0.7;
+}
+.projact-info{
+    padding: 1em;
+}
+.projact-catagory{
+    font-size: 0.8em;
+    color:whitesmoke;
+}
+.projact-title span{
+    color: whitesmoke;
+}
+.projact-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform:uppercase ;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.moredetal{
+    text-decoration: none;
+    color:#FEB139;
+    transition: 0.7s ease;
+}
+.moredetal:hover{
+    color: rgba(255, 255, 255, 0.532);
+    transform: scale(1.2);
+}
+.cardscontact{
+    background-color: #293462 ;
+    
+}
+.cardscontact .card{
+    border:2px solid #feb2399a;
+}
+.footer{
+    background-color: #FEB139;
+    color:black;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+.footertitle{
+    font-size:1.3em ;
+    font-weight: 600;
+    color: black;
+        text-align: center;
+    
+}
+.footertitle span{
+    color:whitesmoke;
+    
+}
+.footer .social-icons a{
+font-size: 1.3em;
+padding: 0 12px 0 0;
+color:whitesmoke;
+}
+
+@media only screen and (max-width: 600px) {
+    /* styles for small screens */
+    header {
+      padding: 10px 20px;
+    }
+  
+    .card {
+      width: 100%;
+      margin: 10px 0;
+    }
+  }
+  
